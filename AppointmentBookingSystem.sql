@@ -39,11 +39,3 @@ Create table Slots(
 	ServiceProviderId int NOT NULL,
 	FOREIGN KEY(ServiceProviderId) REFERENCES ServiceProviders(ServiceProviderId),
 );
-
-DROP TABLE Users;
-
-DROP TABLE Appointments;
-
-DROP TABLE ServiceProviders;
-
-DROP TABLE Slots;
